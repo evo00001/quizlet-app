@@ -1,72 +1,61 @@
 <nav class="navbar">
     <div class="container-fluid">
-     <!---- <button type="button" class="quiz btn-lg btn-outline-light"><strong>Quizlet</strong></button> -->
+     
      <a class="quiz" href="#"><strong>Quizlet</strong></a>
 
-      <button type="button" class="home">Home</button>
      
-      <button type="button" class="home">Subjects</button>
+      <a class="home" style="color: #2e3856; position: fixed; left: 130px" href="#">Home</a>
      
-      <button type="button" class="home">Explanations</button>
+      <a class="subjects" style="color: #2e3856;position: fixed; left: 195px" href="#">Subjects</a>
+
+      <a class="subjects" style="color:#2e3856; position: fixed; left: 275px" href="#">Explanations</a>
      
-    
-      <!---
-      <button type="button" class="create">Create
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
-        </svg>
-        <ul class="dropdown-menu">
-          <li>"Study Set"</li>
-          <li>Folder</li>
-          <li>Class</li>
-        </ul>
-      </button> 
-    -->
-    <button type="button" class="create" style="color: #465ecc">
-      <li class="nav-tem dropdown" style="color: #465ecc">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">
-          Create
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">
-            <svg class="bi" width="15" height="15" fill="currentColor">
-              <use xlink:href="assets/bootstrap-icons.svg#app"/>
-            </svg>
-            Study Set
-          </a></li>
-          <li><a class="dropdown-item" href="#">
-            <svg class="bi" width="15" height="15" fill="currentColor">
-              <use xlink:href="assets/bootstrap-icons.svg#folder"/>
-            </svg>
-            Folder
-          </a></li>
-          <li><a class="dropdown-item" href="#">
-            <svg class="bi" width="15" height="15" fill=grey>
-              <use xlink:href="assets/bootstrap-icons.svg#people-fill"/>
-            </svg>
-            Class
-          </a></li>
-        </ul>
-     </li>
-    </button>
+     
     
       
-     
+      
+       <li class="nav-tem dropdown" style="position: fixed; left: 375px">
+        <button type="button" class="create">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">
+            Create
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">
+              <svg class="bi" width="15" height="15" fill="currentColor">
+                <use xlink:href="assets/bootstrap-icons.svg#app"/>
+              </svg>
+              Study Set
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <svg class="bi" width="15" height="15" fill="currentColor">
+                <use xlink:href="assets/bootstrap-icons.svg#folder"/>
+              </svg>
+              Folder
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <svg class="bi" width="15" height="15" fill=grey>
+                <use xlink:href="assets/bootstrap-icons.svg#people-fill"/>
+              </svg>
+              Class
+            </a></li>
+          </ul>
+        </button>
+       </li>
   
 
       
-      <form>
-        <div class="input-group">
+      <form style="position: fixed; left: 2680px">
+        <div class="input-group" style="width: 235px; color: dimgray">
           <span class="input-group-text">
-            <svg class="bi" width="25" height="25" fill="currentColor">
+            <svg class="bi" width="20" height="25" fill="black">
               <use xlink:href="assets/bootstrap-icons.svg#search"/>
             </svg>
           </span>
-          <input type="text" class="form-control" placeholder="Study sets, textbook..." aria-label="Study sets, textbook..." aria-describedby=Ariel>
+          <input type="text" class="form-control" placeholder="Study sets, textbook..." aria-label="Study sets, textbook..." aria-describedby=Verdana style="color:dimgray">
         </div>
       </form>
 
-      <button type="button" class="login">Log in</button>
+      <a class="login" style="color: #627697; position: fixed; left: 2965px" href="#">Log in</a>
       <button type="button" class="signup">Sign up</button>
 
     </div>

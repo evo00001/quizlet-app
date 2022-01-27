@@ -1,46 +1,66 @@
 .quiz{
-   /* outline-color: white;
+   outline-color: white;
     background-color: white;
     border-color: white;
-    */
-    color: #465ecc;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #4255ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
+    text-decoration: none;
     
 }
 
-.container-fluid{
-    padding-left: 2rem;
-    padding-right: 0rem;
-    overflow: hidden;
-}
+
 
 .body{
     background-color: white;
 }
 
 .home{
-    outline-color:white;
-    background-color:white;
-    border-color:white;
-    color: black;
-    font-family:Arial, Helvetica, sans-serif;
-    font: size 15px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    display:inline-block;
+    margin-right:5px;
+    border-bottom: 5px solid #a8b1ff;
+    padding: 10px;
+    padding-bottom: 10px;
     
 }
 
-.home:hover{
-    border-bottom: 5px solid #465ecc;
+
+
+.subjects{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    display:inline-block;
+    margin-right:5px;
+    position:relative;
+    left: 20px;
+    
 }
 
+.subjects:hover{
+    padding-bottom: 10px;
+    border-bottom: 5px solid #a8b1ff;
+    
+}
+
+
 .create{
-    outline-color: #465ecc;
-    background-color:#465ecc;
-    border-color:#465ecc;
-    /*color:white;*/
-    font-family:Arial, Helvetica, sans-serif;
-    font: size 15 px; 
-    height: 60px;  
+    outline-color: #4255ff;
+    background-color:#4255ff;
+    border-color:#4255ff;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px; 
+    height: 37px; 
+    border-radius: 5px;
 }
 
 .create:hover{
@@ -53,24 +73,34 @@
     outline-color:white;
     background-color:white;
     border-color: white;
-    color: rgb(92, 89, 89);
-    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(148, 144, 144);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:15px;
+    font-weight: 400;
+    text-decoration: none;
+
 }
 .login:hover{
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(238, 235, 235);
+    padding: 0.5em;
+    border-radius: 5px;
 }
 
 .signup{
-    outline-color: yellow;
-    background-color: yellow;
-    border-color: yellow;
+    outline-color: #ffcd1f;
+    background-color: #ffcd1f;
+    border-color:#ffcd1f;
     color: black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    border-radius: 5px;
+    border-width: 5px;
+    font-weight: 400;
+
 }
 
 .signup:hover{
-    background-color:rgb(248, 244, 10);
+    background-color:#ffd447;
+    border-width: 5px;
 }
 
