@@ -1,11 +1,18 @@
 .quiz{
-    outline-color: white;
+   /* outline-color: white;
     background-color: white;
     border-color: white;
+    */
     color: #465ecc;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     
+}
+
+.container-fluid{
+    padding-left: 2rem;
+    padding-right: 0rem;
+    overflow: hidden;
 }
 
 .body{
@@ -19,6 +26,7 @@
     color: black;
     font-family:Arial, Helvetica, sans-serif;
     font: size 15px;
+    
 }
 
 .home:hover{
@@ -29,9 +37,10 @@
     outline-color: #465ecc;
     background-color:#465ecc;
     border-color:#465ecc;
-    color:white;
+    /*color:white;*/
     font-family:Arial, Helvetica, sans-serif;
-    font: size 15 px;   
+    font: size 15 px; 
+    height: 60px;  
 }
 
 .create:hover{
