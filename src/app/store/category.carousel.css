@@ -4,14 +4,15 @@
     padding-right: 25%;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 925;
+    font-weight: 900;
+    text-align:center;
 }
 
 .quote{
-    padding-inline-start: 40%;
     color: #a9a9ae;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 
