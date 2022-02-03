@@ -1,0 +1,40 @@
+.card{
+    max-width: 500px;
+    max-height: 170px;
+    position: relative;
+    left: 35%;
+}
+
+.card:hover{
+    padding-bottom: 10px;
+    border-bottom: 5px solid #a8b1ff;
+}
+
+.img-fluid{
+    max-height: 170px;
+    border-left-width: 20px;
+}
+
+.card-title{
+    color: #282e3e;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.card-text{
+    color: slategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.add-text{
+    color: #2e3856;
+    background-color: #edefff;
+    font-size: 13px;
+    font-weight:700;
+    border-width: 50px;
+    border-radius: 20%;
+
+}
