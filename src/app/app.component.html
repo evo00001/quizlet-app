@@ -5,5 +5,14 @@ Welcome to Quizlet!!
 </p>
 
 <quiz-category-carousel>Loading...</quiz-category-carousel>
-<quiz-category-card>Loading...</quiz-category-card>
+<div class="container">
+    <div *ngFor="let product of products">
+        <quiz-category-card class="card mb-3" img={{product.img}}
+        title={{product.title}}
+        author={{product.author}}
+        edition={{product.edition}}
+        explanation={{product.explanation}}>
+        Loading...</quiz-category-card>
+    </div>
+</div>
 <quiz-footer>Loading...</quiz-footer>
