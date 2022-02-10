@@ -19,6 +19,13 @@ export const mock_product_list = [
         edition: "10th Edition",
         author: "DeCoste, Zumdahl",
         explanation: "5,817 explanations"
+    },
+    {
+        img: "./assets/ochemtextbook.jpg",
+        title: "Organic Chemistry",
+        edition: "3rd Edition",
+        author: "David Klein",
+        explanation: "2,171 explanations"
     }
 
 ];
