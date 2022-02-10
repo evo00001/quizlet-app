@@ -1,0 +1,28 @@
+.nav-link{
+    color: #5e69fd; 
+    font-size: 14px
+}
+
+.header{
+    line-height: 3.5em; 
+    font-size: 17px; 
+    font-weight: 700
+}
+
+.facebook{
+    color:black; 
+    position:relative; 
+    left: 30px;
+}
+
+.instagram{
+    color:black; 
+    position:relative; 
+    left: 60px;
+}
+
+.youtube{
+    color:black; 
+    position:relative; 
+    left: 90px;
+}
