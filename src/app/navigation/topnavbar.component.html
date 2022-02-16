@@ -8,7 +8,10 @@
      
       <a class="subjects"href="#">Subjects</a>
 
-      <a class="explanations" href="#">Explanations</a>
+      <a class="explanations" 
+            routerLinkActive="active"
+            routerLink="explanations">
+              Explanations</a>
      
      
     
@@ -20,7 +23,8 @@
             Create
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">
+            <li><a class="dropdown-item" routerLinkActive="active"
+              routerLink="create-set" >
               <svg class="bi" width="15" height="15" fill="currentColor">
                 <use xlink:href="assets/bootstrap-icons.svg#app"/>
               </svg>
