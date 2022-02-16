@@ -1,0 +1,19 @@
+.header{
+    font-size: 40px;
+    color:#303545;
+    text-align: center;
+    font-weight: 600;
+}
+
+.image{
+    width: 340px;
+    height: 344px;
+    float:left;
+}
+
+.text{
+    font-size: 25px;
+    color:#303545;
+    font-weight: 600;
+    padding-left: 550px;
+}
