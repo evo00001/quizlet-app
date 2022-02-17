@@ -74,6 +74,10 @@
     border-bottom: 5px solid #a8b1ff;
     
 }
+.active{
+    padding-bottom: 10px;
+    border-bottom: 5px solid #a8b1ff;
+}
 
 .create{
     outline-color: #4255ff;

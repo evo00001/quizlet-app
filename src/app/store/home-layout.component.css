@@ -1,0 +1,24 @@
+.imagehome{
+    height: 300px;
+    width: 300px;
+    float: right;
+    padding-left: 40px;
+    
+}
+.paragraphhome{
+    word-wrap: break-word;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.homecard{
+    height:300px;
+    width:850px;
+}
+
+.paragraphheaderhome{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #3c3545;
+    padding-bottom: 15px;
+}

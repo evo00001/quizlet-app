@@ -1,0 +1,48 @@
+.aboutheader{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #3c3545;
+    padding-bottom: 100px;
+}
+
+.imageabout{
+    height: 400px;
+    width: 400px;
+    float: right;
+    padding-left: 40px;
+    
+}
+.paragraph{
+    word-wrap: break-word;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.aboutcard{
+    height:550px;
+    width:1050px;
+}
+
+.paragraphheader{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #3c3545;
+    padding-bottom: 15px;
+}
+
+.button{
+    outline-color: #4255ff;
+    background-color:#4255ff;
+    border-color:#4255ff;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px; 
+    height: 37px; 
+    border-radius: 5px;
+    color: white;
+}
+
+.button:hover{
+    background-color:#2b48ca;
+}

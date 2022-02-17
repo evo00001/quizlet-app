@@ -1,0 +1,21 @@
+.studysetheader{
+    padding-top: 10px;
+   
+
+}
+
+.container-fluid{
+    background-color: #f6f7fb;
+}
+
+.createbutton{
+    outline-color: #3ccfcf;
+    background-color:#3ccfcf;
+    border-color:#3ccfcf;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px; 
+    height: 37px; 
+    border-radius: 5px;
+    color: white;
+}

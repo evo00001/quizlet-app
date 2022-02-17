@@ -1,0 +1,34 @@
+.learntitle{
+    text-align: center;
+    color: #303545;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.imagelearn{
+    height: 400px;
+    width: 400px;
+    float: right;
+    padding-left: 40px;
+    
+}
+.paragraphlearn{
+    word-wrap: break-word;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.learncard{
+    height:550px;
+    width:1050px;
+}
+
+.paragraphheaderlearn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #3c3545;
+    padding-bottom: 15px;
+}

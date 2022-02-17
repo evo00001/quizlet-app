@@ -25,7 +25,7 @@ const routes:Routes = [
     path: 'create-set', component:StudySetLayoutComponent
   },
   {
-    path: 'hc', component: HelpCenterLayoutComponent
+    path: 'learn', component: HelpCenterLayoutComponent
   }
 ];
 

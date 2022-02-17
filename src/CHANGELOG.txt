@@ -1,0 +1,8 @@
+Lab Assignment 4 Changelog
+    Main features:
+        Added 5 new routes and a default route.
+            5 routes to: explanations page, study set page, arts and humanities, quizlet learn, and company page
+            Set the default route to the home page
+        Organized multiple components using bootstrap flex feature
+    Additional Features:
+        Started to populate the pages being routed to with more components and text
