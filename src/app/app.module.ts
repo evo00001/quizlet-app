@@ -12,6 +12,7 @@ import { HomeLayoutComponent } from './store/home-layout.component';
 import { AboutLayoutComponent } from './store/about-layout.component';
 import { ArtsLayoutComponent } from './store/arts-layout.component';
 import { StudySetLayoutComponent } from './store/studyset-layout.component';
+import { HelpCenterLayoutComponent } from './store/helpcenter-layout.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { StudySetLayoutComponent } from './store/studyset-layout.component';
     HomeLayoutComponent,
     AboutLayoutComponent,
     ArtsLayoutComponent,
-    StudySetLayoutComponent
+    StudySetLayoutComponent,
+    HelpCenterLayoutComponent
   ],
   imports: [
     BrowserModule,

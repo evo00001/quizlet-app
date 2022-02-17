@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './store/home-layout.component';
 import { AboutLayoutComponent } from './store/about-layout.component';
 import { ArtsLayoutComponent } from './store/arts-layout.component';
 import { StudySetLayoutComponent } from './store/studyset-layout.component';
+import { HelpCenterLayoutComponent } from './store/helpcenter-layout.component';
 
 const routes:Routes = [
   {
@@ -22,6 +23,9 @@ const routes:Routes = [
   },
   {
     path: 'create-set', component:StudySetLayoutComponent
+  },
+  {
+    path: 'hc', component: HelpCenterLayoutComponent
   }
 ];
 
