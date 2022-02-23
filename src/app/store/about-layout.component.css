@@ -46,3 +46,30 @@
 .button:hover{
     background-color:#2b48ca;
 }
+
+.investorheader{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #3c3545;
+    padding-left: 875px;
+}
+.investorparagraph{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3c3545;
+    padding-left: 875px;
+}
+
+.cardinvestor{
+    height: 130px;
+    width: 305px;
+  
+}
+.cardinvestor:hover{
+    border-bottom: 5px solid #ffcd1f;
+}
+
+.imageinvestor{
+    height: 125px;
+    width: 300px;
+}
+
