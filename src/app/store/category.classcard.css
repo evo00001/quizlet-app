@@ -1,0 +1,17 @@
+.card-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card{
+    height: 60px;
+    width: 160px;
+    padding-right: 15px;
+}
+
+.card:hover{
+    border-bottom: 5px solid lightblue;
+}

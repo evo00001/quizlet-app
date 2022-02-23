@@ -6,3 +6,12 @@ Lab Assignment 4 Changelog
         Organized multiple components using bootstrap flex feature
     Additional Features:
         Started to populate the pages being routed to with more components and text
+
+
+
+Lab Assignment 5 Changelog
+    Main features:
+        Implemented more components onto 2 layout pages from last lab Assignment
+            Implemented two different types of card components, one involving the ngFor, and a carousel onto the about page.
+            Implemented a side nav bar, card component, and another card component involving ngFor onto the Arts and Humanities 
+            flashcard page.

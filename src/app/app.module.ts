@@ -15,6 +15,8 @@ import { StudySetLayoutComponent } from './store/studyset-layout.component';
 import { HelpCenterLayoutComponent } from './store/helpcenter-layout.component';
 import { CategoryPressCardComponent } from './store/category.presscard';
 import { CategoryAboutCarouselComponent } from './store/category.aboutcarousel';
+import { CategoryClassCard } from './store/category.classcard';
+import { CategoryFlashCards } from './store/category.flashcard';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { CategoryAboutCarouselComponent } from './store/category.aboutcarousel';
     StudySetLayoutComponent,
     HelpCenterLayoutComponent,
     CategoryPressCardComponent,
-    CategoryAboutCarouselComponent
+    CategoryAboutCarouselComponent,
+    CategoryClassCard,
+    CategoryFlashCards
   ],
   imports: [
     BrowserModule,

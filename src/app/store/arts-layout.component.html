@@ -1,4 +1,53 @@
 <div class="container-fluid">
     <p class="artsheader">Arts and Humanities</p>
     <h1 class="artstitle">Arts and Humanities flashcards, diagrams and study guides</h1>
+    <div class="row align-items-start">
+        <div class="col-4">
+    <ul class="nav flex-column">
+        <h6 class="headersidebar">ALL ARTS AND HUMANITIES</h6>
+        <li class="nav-item">
+          <a class="sidebar" aria-current="page" href="#">Art History</a>
+        </li>
+        <li class="nav-item">
+          <a class="sidebar" href="#">Dance</a>
+        </li>
+        <li class="nav-item">
+          <a class="sidebar" href="#">English</a>
+        </li>
+        <li class="nav-item">
+          <a class="sidebar" href="#">Film and TV</a>
+        </li>
+        <li class="nav-item">
+            <a class="sidebar" href="#">History</a>
+        </li>
+         <li class="nav-item">
+            <a class="sidebar" href="#">Music</a>
+        </li>
+        <li class="nav-item">
+            <a class="sidebar" href="#">Philosophy</a>
+          </li>
+        <li class="nav-item">
+            <a class="sidebar" href="#">Theater</a>
+        </li>
+        <li class="nav-item">
+            <a class="sidebar" href="#">Visual Arts</a>
+          </li>
+      </ul>
+    </div>
+    <div class="col-4">
+      <h3 class="headerbrowse">Browse by category</h3>
+      <quiz-category-classcard>Loading...</quiz-category-classcard>
+      <h3 class="headerbrowse">Popular Art History sets</h3>
+      <div class="row d-flex justify-content-center">
+        <div *ngFor="let flashcard of flashcards" class="col-md-6 flash">
+            <quiz-category-flashcard img={{flashcard.img}}
+            title={{flashcard.title}}
+            terms={{flashcard.terms}}
+            author={{flashcard.author}}
+            profilepic={{flashcard.profilepic}}>
+            Loading...</quiz-category-flashcard>
+        </div>
+    </div>
+    </div>
+    </div>
 </div>

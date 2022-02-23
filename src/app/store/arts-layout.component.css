@@ -1,9 +1,9 @@
 .artsheader{
     font-size:12px;
     color:#99bae7;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 10px;
+    padding-left: 800px;
 }
 
 .container-fluid{
@@ -11,10 +11,47 @@
 }
 
 .artstitle{
-    text-align: center;
     color: #303545;
     font-size: 35px;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 10px;
+    padding-left: 800px;
+}
+
+.sidebar{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #303550;
+    text-decoration: none;
+}
+
+.sidebar:hover{
+    color: rgba(255, 238, 0, 0.842);
+}
+
+.headersidebar{
+    color:#93a0cc;
+    font-size: 12px;
+    font-weight: 600;
+    word-wrap: break-word;
+    padding-left: 800px;
+}
+
+.nav-item{
+    padding-left: 800px;
+    padding-bottom: 10px;
+}
+
+.headerbrowse{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color:#303550;
+    padding-top: 15px;
+}
+
+.flash{
+    padding-bottom: 15px;
 }

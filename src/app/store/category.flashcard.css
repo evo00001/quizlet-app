@@ -1,0 +1,40 @@
+.card{
+    height: 160px;
+    width: 350px;
+}
+
+.card:hover{
+    border-bottom: 5px solid lightblue;
+}
+
+.imgarts{
+    height: 66px;
+    width: 66px;
+    text-decoration: none;
+}
+
+.flashcardtitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: darkslategray;
+}
+
+.flashcardterms{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a79bb4;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.flashcardprofilepic{
+    height: 20px;
+    width: 20px;
+}
+
+.flashcardauthor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    font-size: 10px;
+    font-weight: 600;
+}
