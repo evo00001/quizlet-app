@@ -74,5 +74,18 @@
         </div>
   </div>
   <h3 class="investorheader">Recent press</h3>
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center">
+        <div *ngFor="let presscard of presscards" class="col-md-2">
+            <quiz-category-presscard img={{presscard.img}}
+            date={{presscard.date}}
+            title={{presscard.title}}
+            logo={{presscard.logo}}>
+            Loading...</quiz-category-presscard>
+        </div>
+    </div>
+</div>
+
+<quiz-category-aboutcarousel>Loading...</quiz-category-aboutcarousel>
 </div>
 

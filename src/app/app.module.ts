@@ -13,6 +13,8 @@ import { AboutLayoutComponent } from './store/about-layout.component';
 import { ArtsLayoutComponent } from './store/arts-layout.component';
 import { StudySetLayoutComponent } from './store/studyset-layout.component';
 import { HelpCenterLayoutComponent } from './store/helpcenter-layout.component';
+import { CategoryPressCardComponent } from './store/category.presscard';
+import { CategoryAboutCarouselComponent } from './store/category.aboutcarousel';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { HelpCenterLayoutComponent } from './store/helpcenter-layout.component';
     AboutLayoutComponent,
     ArtsLayoutComponent,
     StudySetLayoutComponent,
-    HelpCenterLayoutComponent
+    HelpCenterLayoutComponent,
+    CategoryPressCardComponent,
+    CategoryAboutCarouselComponent
   ],
   imports: [
     BrowserModule,
