@@ -73,3 +73,13 @@
     width: 300px;
 }
 
+.background{
+    background-color: #f6f7fb;
+}
+
+.pressheader{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #3c3545;
+    padding-left: 775px;
+}
