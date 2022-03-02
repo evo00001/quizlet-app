@@ -15,3 +15,11 @@ Lab Assignment 5 Changelog
             Implemented two different types of card components, one involving the ngFor, and a carousel onto the about page.
             Implemented a side nav bar, card component, and another card component involving ngFor onto the Arts and Humanities 
             flashcard page.
+
+
+Lab Assignment 6 Changelog
+    Main features: 
+        Created a backend to my website using Firebase.
+        Created a realtime database and filled it with my first name, last name, github, and email address.
+        Communicated my first name, last name, email address, and github link with my website and created a component where I could
+        display those features at the top of my website. 

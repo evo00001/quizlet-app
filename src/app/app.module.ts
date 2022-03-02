@@ -17,6 +17,8 @@ import { CategoryPressCardComponent } from './store/category.presscard';
 import { CategoryAboutCarouselComponent } from './store/category.aboutcarousel';
 import { CategoryClassCard } from './store/category.classcard';
 import { CategoryFlashCards } from './store/category.flashcard';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component'
 
 @NgModule({
   declarations: [
@@ -34,11 +36,13 @@ import { CategoryFlashCards } from './store/category.flashcard';
     CategoryPressCardComponent,
     CategoryAboutCarouselComponent,
     CategoryClassCard,
-    CategoryFlashCards
+    CategoryFlashCards,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
