@@ -23,3 +23,9 @@ Lab Assignment 6 Changelog
         Created a realtime database and filled it with my first name, last name, github, and email address.
         Communicated my first name, last name, email address, and github link with my website and created a component where I could
         display those features at the top of my website. 
+
+Lab Assignment 7 Changelog
+    Main features: 
+        Moved the content from mock-product-list.ts to my backend on Firebase.
+        Created service class products.service.ts to communicate with the backend to retrieve the data and created methods to be used in the class.
+        Edited explanations-layout.component.ts to reference the service class in order to retrieve the data and display it properly on my website.
