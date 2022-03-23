@@ -1,22 +1,26 @@
-import { HttpClient } from "@angular/common/http";
+
 import { Injectable } from "@angular/core";
 import { ProductItemModel } from "./product-item.model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
+import { startAt } from "firebase/database";
 
 @Injectable({
     providedIn: 'root'
 })
 export class ProductService{
 
-    private baseUrl:string='https://quizlet-9f2e7-default-rtdb.firebaseio.com/';
-    private productsEndPoint:string= 'products.json';
+    
 
-    constructor(private http:HttpClient){
+    constructor(private db:AngularFireDatabase){
         
     }
 
     public getProducts(){
-        return this.http.get<ProductItemModel []>(this.baseUrl + this.productsEndPoint);
+        return this.db.list<ProductItemModel>("products").valueChanges();
     }
 
+    public getProduct(index:number){
+        return this.db.list("products", ref => ref.orderByChild("title").startAt(10)).valueChanges();
+    }
 
 }

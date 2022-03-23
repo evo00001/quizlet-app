@@ -29,3 +29,10 @@ Lab Assignment 7 Changelog
         Moved the content from mock-product-list.ts to my backend on Firebase.
         Created service class products.service.ts to communicate with the backend to retrieve the data and created methods to be used in the class.
         Edited explanations-layout.component.ts to reference the service class in order to retrieve the data and display it properly on my website.
+
+Lab Assignment 8 Changelog
+    Main features: 
+        Created the Angular Fire library and implemented it into my existing project.
+        Changed products.service.ts to include the Angular Fire Database and not the HTTPClient that we implemented for the last lab.
+        Now the card for the textbooks that I implemented are dependent on the Angular Fire Database and not the HTTPClient.
+        I also deployed my website and now have a specific URL for my website. https://quizlet-9f2e7.web.app
