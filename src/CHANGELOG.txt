@@ -36,3 +36,9 @@ Lab Assignment 8 Changelog
         Changed products.service.ts to include the Angular Fire Database and not the HTTPClient that we implemented for the last lab.
         Now the card for the textbooks that I implemented are dependent on the Angular Fire Database and not the HTTPClient.
         I also deployed my website and now have a specific URL for my website. https://quizlet-9f2e7.web.app
+
+Lab Assignment 9 Changelog
+    Main features:
+        Created a new route, admin, which leads to a form where a user could enter information which will add a textbook card to the explanations page of website.
+        The new page incorporates the different forms for each aspect of the card and also a button to submit the form.
+        Connected the forms to my realtime database so that the data can be retrieved and a new card can be added with the information in a quick manner. 

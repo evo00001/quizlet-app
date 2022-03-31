@@ -20,7 +20,11 @@ export class ProductService{
     }
 
     public getProduct(index:number){
-        return this.db.list("products", ref => ref.orderByChild("title").startAt(10)).valueChanges();
+        return this.db.list<ProductItemModel>("products", ref => ref.orderByChild("title").startAt(10)).valueChanges();
+    }
+
+    public addProduct(product:ProductItemModel) {
+        this.db.list<ProductItemModel>("products").push(product);
     }
 
 }
