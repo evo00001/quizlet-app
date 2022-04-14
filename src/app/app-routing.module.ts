@@ -8,6 +8,7 @@ import { ArtsLayoutComponent } from './store/arts-layout.component';
 import { StudySetLayoutComponent } from './store/studyset-layout.component';
 import { HelpCenterLayoutComponent } from './store/helpcenter-layout.component';
 import { AddProductComponent } from './store/add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {
@@ -27,6 +28,9 @@ const routes:Routes = [
   },
   {
     path: 'admin', component: AddProductComponent
+  },
+  {
+    path: 'auth', component: AuthenticationComponent
   },
   {
     path: 'learn', component: HelpCenterLayoutComponent

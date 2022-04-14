@@ -41,4 +41,10 @@ Lab Assignment 9 Changelog
     Main features:
         Created a new route, admin, which leads to a form where a user could enter information which will add a textbook card to the explanations page of website.
         The new page incorporates the different forms for each aspect of the card and also a button to submit the form.
-        Connected the forms to my realtime database so that the data can be retrieved and a new card can be added with the information in a quick manner. 
+        Connected the forms to my realtime database so that the data can be retrieved and a new card can be added with the information in a quick manner.
+
+Lab Assignment 10 Changelog
+    Main features:
+        Created authentication in Firebase and linked it to website.
+        Created new routing and form component called "auth" where a user can sign up with an email and password.
+        Created service class for authentication and connected it to the component for authentication.
